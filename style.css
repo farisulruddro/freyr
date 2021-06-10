@@ -1,0 +1,198 @@
+html, body{
+	background: #636b57;
+	background: url(images/background.png);
+  	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+
+
+
+}
+
+@font-face {
+  font-family: Syne;
+  src: url(Syne[wght].ttf);
+}
+
+section{
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+
+p{
+	font-family: Syne;
+	font-size: 20px;
+    color: #636b57;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h1{
+	font-family: Syne;
+	font-size: 42px;
+	color: #636b57;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+h3{
+	font-family: Syne;
+	color: #636b57;	
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+h4{
+	font-family: Syne;
+	color: #636b57;	
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 12px;     
+    margin-bottom: 12px;
+
+
+}
+
+
+.logo-container{
+	text-align: -webkit-center;
+}
+
+.logo-container > img{
+	width: 500px;
+}
+
+.container-content{
+	width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    text-align: -webkit-center;
+    padding: 32px 58px 32px 58px;
+    background: #ffffff;
+}
+
+.solid{
+	border: 2px solid #636b57;
+	border-radius: 8px;
+	width: 100%;
+}
+
+.columns{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.border-column{
+	width: 35%;
+}
+.time-column{
+	width: 30%;
+}
+
+
+.golf-column{
+	width: 30%;
+}
+
+.golf-column > img{
+
+	width: 30%;
+}
+
+
+.bold-text{
+	width: 50%;
+}
+
+
+.button-section{
+	display: grid;
+	width: 60%;
+}
+
+button{
+	padding: 12px 38px 12px 38px;
+	background: #D1BE6B;
+	border: none;
+	color: #636b57;
+	margin-bottom: 8px;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 1190px) {
+.container-content{
+	width: 50%;
+}
+
+
+}
+
+@media only screen and (max-width: 968px) {
+.container-content{
+	width: 65%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+.container-content{
+	width: auto;
+}
+
+
+p{
+	font-size: 14px;
+    color: #636b57;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h1{
+	font-size: 32px;
+	color: #636b57;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+h3{
+	color: #636b57;	
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+h4{
+
+	color: #636b57;	
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;     
+    margin-bottom: 12px;
+
+
+}
+
+.button-section{
+	width: auto;
+}
+
+.logo-container > img{
+	width: 300px;
+}
+}
